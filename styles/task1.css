@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;}
+  .box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 138px;
+  }
+  .box-wrapper{
+    width: 712px;
+    height: 797px;
+    border-radius: 4px;
+    padding: 75px;
+    border: 1px solid #5C5C5C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px;
+  }
+  .wrapper-boxHead{
+    width: 303px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper-boxHead p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #000;
+  }
+  .wrapper-boxHead h2{
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 66px;
+    color: #000;
+  }
+  .boxForm{
+    width: 562px;
+    height: 508px;
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+  }
+  .boxform{
+    width: 562px;
+    height: 213.79px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .wrapper-boxform2 form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .wrapper-boxform1 form{
+    display: flex;
+    gap: 25px;
+  }
+  .wrapper-boxform1 input{
+    width: 268.5px;
+    height: 63.4px;
+    padding: 10px 5px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    border: none;
+    border-bottom: 1px solid #5C5C5C;
+    outline: none;
+  }
+  .wrapper-boxform2 input{
+    width: 562px;
+    height: 63.4px;
+    padding: 10px 5px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    border: none;
+    border-bottom: 1px solid #5C5C5C;
+    outline: none;
+  }
+  .wrapper-checkbox{
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+  }
+  .wrapper-checkbox form{
+    width: 562px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .wrapper-checkbox p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    color: #5C5C5C;
+  }
+  .wrapper-checkbox button{
+    width: 562px;
+    height: 75.85px;
+    border-radius: 8px;
+    border: none;
+    background-color: #5C5C5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+  }
+  .wrapper-img{
+    width: 50%;
+    height: 100vh;
+  }
+  .wrapper-img img{
+    width: 100%;
+    height: 100%;
+  }
